@@ -12,7 +12,7 @@
 
 /* Links */
 a {
-    color: rgb(47,120,204);
+    color: rgb(100,200,255);
 }
 
 .si i {
@@ -26,7 +26,7 @@ background-color: rgb(47,120,204);
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-color: rgb(47,120,204);
+color: rgb(100,200,255);
 }
 
 .btn-theme {

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" type="image/x-icon" href="img/issac.ico"/>
-    <title>On the Road-Find destinations info and share your travel experience!</title>
+    <title>404 Not Found -- On the Road</title>
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
@@ -28,7 +28,11 @@
     <link href="assets/css/colors/color-74c9be.css" rel="stylesheet">    
     <link href="assets/css/animations.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-
+    <style type="text/css">
+        .error-template {padding: 40px 15px;text-align: center;}
+        .error-actions {margin-top:15px;margin-bottom:15px;}
+        .error-actions .btn { margin-right:10px; }
+    </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -38,9 +42,9 @@
 
 </head>
 
-<body id="page-top">
+<body id="page-top" style="background-color:white">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top ">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top "  style="background-color:rgb(47,120,204)">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -63,7 +67,7 @@
                 </div>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#home">Home</a>
+                        <a class="page-scroll" href="index.html">Home</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="destination.html">destinations</a>
@@ -90,53 +94,21 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header id='home'>
+    <section>
+        <img src="img/error.jpg" style="position:absolute;padding:0 0 0 250px">
         <div class="header-content">
-            <div class="header-content-inner">
-                <h1>start travel from here</h1>
-                <br/>
-                <p>On the Road provides you a wonderful platform to share your travel experience</p>
-                <a href="#help" class="btn btn-primary btn-xl page-scroll" >How it works</a>
-            </div>
-        </div>
-    </header>
-    
-    <section class="bg-primary" id="help" style="height:550px;padding:10px">
-        <div class="container-fluid">
-            <div class="row ">
-                <div class="col-lg-2 col-sm-3 stepbox">
-                    <img src="img/step1.svg" class=" step" alt="" >
-                    <div class="steptext">
-                        <h4>Get Travel Inspiration</h4>
-                        <p>Read shared blogs and photos from others and get your own travel inspiration.</p>
-                    </div>  
-                </div>
-                
-                <div class="col-lg-2 col-sm-3 stepbox">
-                    <img src="img/step2.svg" class="step" alt="" >
-                    <div class="steptext">
-                        <h4>Gather Information</h4>
-                        <p>Read more information and shared experiences about your destination.</p>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-sm-3 stepbox">
-                     <img src="img/step3.svg" class="step" alt="" >
-                    <div class="steptext">
-                        <h4>Enjoy</h4>
-                        <p>Pack your bags and enjoy the travel!</p>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-sm-3 stepbox">
-                    <img src="img/step4.svg" class=" step" alt="" >
-                    <div class="steptext">
-                        <h4>Share Online</h4>
-                        <p>Share your experiences and photos and make friends!</p>
-                    </div>  
+            <div class="container" style="height:500px;margin-top:-35px;padding:20px;margin-bottom:-100px">
+                <div class="row" style="padding-top:70px">
+                    <div class="col-md-12">
+                        <div class="error-template" style="padding-top:300px">
+                            <div class="error-actions">
+                                <a href="index.html" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
+                                    Take Me Home </a><a href="contact.html" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-envelope"></span> Contact Support </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div style="margin-top:-30px;text-align:center">
-            <a href="plan.html" class="btn btn-default btn-xl wow tada" style="color:rgb(100,200,255)">Start Now!</a>
         </div>
     </section>
     
@@ -163,6 +135,7 @@
                         <a href='#'><i class="fa fa-twitter-square"></i></a>
                         <a href="#"><i class="fa fa-github-square"></i></a>
                         <a href="#"><i class="fa fa-google-plus-square"></i></a>
+
                     </p>
                 </div>
         </div>
@@ -214,7 +187,7 @@
             <div class="form-group">
               <label class="col-sm-3 control-label"></label>
               <div class="col-sm-8">
-                <button id="signin" name="signin" class="btn login"><a href="info.html" style="color:white;margin-top:7px;">Sign In</a></button>
+                <button id="signin" name="signin" class="btn login" style="margin-top:7px">Sign In</button>
               </div>
             </div>
             </fieldset>
@@ -249,7 +222,7 @@
             <div class="form-group">
               <label class="col-sm-3 control-label" for="confirmsignup"></label>
               <div class="col-sm-8">
-                  <button id="confirmsignup" name="confirmsignup" class="btn login"><a href="info.html" style="color:white;">Sign Up</a></button>
+                <button id="confirmsignup" name="confirmsignup" class="btn login">Sign Up</button>
               </div>
             </div>
             </fieldset>

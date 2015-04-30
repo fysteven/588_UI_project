@@ -3,10 +3,11 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
-		<title>Article Content -- HoneyComb</title>
+		<title>Gallery -- On the Road</title>
 		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="img/issac.ico"/>
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -20,10 +21,8 @@
         
         <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
         <link rel="stylesheet" href="css/bootstrap-image-gallery.css">
-            <link href="css/blur-background.css" rel="stylesheet">
-
         <style>
-            img {
+            .img {
                 filter: gray; /* IE6-9 */
                 -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
                 -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
@@ -31,14 +30,14 @@
                 box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
                 margin-bottom: 10px;
             }
-            img:hover {
+            .img:hover {
                 filter: none; /* IE6-9 */
                 -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
             }
         </style>
 	</head>
 	<body>
-        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top " style="background-color:rgb(47,120,204)">
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top " >
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -48,12 +47,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Honeycomb</a>
+                <a class="navbar-brand page-scroll" href="index.html">On the Road</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <div class="input-group" style="width:700px;float:left;padding-top:10px"> 
+                <div class="input-group" style="width:500px;float:left;padding-top:10px"> 
                     <div class="input-group-btn">
                     </div>
                     <input type="text" class="form-control" placeholder="Search for your destination">
@@ -61,10 +60,22 @@
                 </div>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#home">Home</a>
+                        <a class="page-scroll" href="index.html">Home</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="destination.html">destinations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="plan.html">plan</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="articlelist.html">Articles</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="blog.html">myBlog</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#signup" data-toggle="modal" data-target=".bs-modal-sm">Login</a>
@@ -75,15 +86,22 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-<div class="row wrapper">
-    <div class="box" style="padding-top:50px;background-image:url(img/paris.jpg);">
+<div class="wrapper">
+    <div class="box">
         <div class="row" >
-            <!-- sidebar -->
-            
-            <!-- /sidebar -->
+            <div class="container-fluid" style="height:200px;background-image:url(img/paris4.jpg)">
+                <div class="row ">
+                    <div class="container">
+                        <div style="padding:80px 0 0 80px;">
+                            <h2><a href="paris.html" style="color:black">Paris</a></h2>
+                            <p>A wonderful city. A place for lovers. </p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
           
             <!-- main -->
-            <div class="column " id="main">
+            <div class="column " id="main" >
                 <div class="padding">
                     <div class="full col-sm-9">
                         
@@ -91,58 +109,79 @@
                             <div class="row">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div class="well" id="links2">
-                                            <a href="img/paris.jpg" data-gallery><img src="img/paris.jpg" class="thumbnail img-responsive" alt="Bootstrap template"></a>
+                                        <div class="well">
+                                            <a href="img/paris/1.jpeg" data-gallery><img src="img/paris/1.jpeg" class="thumbnail img-responsive img" alt="Bootstrap template"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="well" id="links2">
-                                            <a href="img/paris.jpg" data-gallery><img src="img/paris.jpg" class="thumbnail img-responsive" alt="Bootstrap template"></a>
+                                        <div class="well">
+                                            <a href="img/paris/2.jpeg" data-gallery><img src="img/paris/2.jpeg" class="thumbnail img-responsive img" alt="Bootstrap template"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="well" id="links2">
-                                            <a href="img/paris.jpg" data-gallery><img src="img/paris.jpg" class="thumbnail img-responsive" alt="Bootstrap template"></a>
+                                        <div class="well">
+                                            <a href="img/paris/3.jpeg" data-gallery><img src="img/paris/3.jpeg" class="thumbnail img-responsive img" alt="Bootstrap template"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="well" id="links2">
-                                            <a href="img/paris.jpg" data-gallery><img src="img/paris.jpg" class="thumbnail img-responsive" alt="Bootstrap template"></a>
+                                        <div class="well">
+                                            <a href="img/paris/4.jpeg" data-gallery><img src="img/paris/4.jpeg" class="thumbnail img-responsive img" alt="Bootstrap template"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="well" id="links2">
-                                            <a href="img/paris.jpg" data-gallery><img src="img/paris.jpg" class="thumbnail img-responsive" alt="Bootstrap template"></a>
+                                        <div class="well">
+                                            <a href="img/paris/5.jpeg" data-gallery><img src="img/paris/5.jpeg" class="thumbnail img-responsive img" alt="Bootstrap template"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="well" id="links2">
-                                            <a href="img/paris.jpg" data-gallery><img src="img/paris.jpg" class="thumbnail img-responsive" alt="Bootstrap template"></a>
+                                        <div class="well">
+                                            <a href="img/paris/6.jpeg" data-gallery><img src="img/paris/6.jpeg" class="thumbnail img-responsive img" alt="Bootstrap template"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="well" id="links2">
-                                            <a href="img/paris.jpg" data-gallery><img src="img/paris.jpg" class="thumbnail img-responsive" alt="Bootstrap template"></a>
+                                        <div class="well">
+                                            <a href="img/paris/7.jpeg" data-gallery><img src="img/paris/7.jpeg" class="thumbnail img-responsive img" alt="Bootstrap template"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="well" id="links2">
-                                            <a href="img/paris.jpg" data-gallery><img src="img/paris.jpg" class="thumbnail img-responsive" alt="Bootstrap template"></a>
+                                        <div class="well">
+                                            <a href="img/paris/8.jpeg" data-gallery><img src="img/paris/8.jpeg" class="thumbnail img-responsive img" alt="Bootstrap template"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="well" id="links2">
-                                            <a href="img/paris.jpg" data-gallery><img src="img/paris.jpg" class="thumbnail img-responsive" alt="Bootstrap template"></a>
+                                        <div class="well">
+                                            <a href="img/paris/9.jpeg" data-gallery><img src="img/paris/9.jpeg" class="thumbnail img-responsive img" alt="Bootstrap template"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="well" id="links2">
-                                            <a href="img/paris.jpg" data-gallery><img src="img/paris.jpg" class="thumbnail img-responsive" alt="Bootstrap template"></a>
+                                        <div class="well">
+                                            <a href="img/paris/10.jpeg" data-gallery><img src="img/paris/10.jpeg" class="thumbnail img-responsive img" alt="Bootstrap template"></a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="well" id="links2">
-                                            <a href="img/paris.jpg" data-gallery><img src="img/paris.jpg" class="thumbnail img-responsive" alt="Bootstrap template"></a>
+                                        <div class="well">
+                                            <a href="img/paris/12.jpeg" data-gallery><img src="img/paris/12.jpeg" class="thumbnail img-responsive img" alt="Bootstrap template"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="well">
+                                            <a href="img/paris/13.jpeg" data-gallery><img src="img/paris/13.jpeg" class="thumbnail img-responsive img" alt="Bootstrap template"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="well">
+                                            <a href="img/paris/14.jpeg" data-gallery><img src="img/paris/14.jpeg" class="thumbnail img-responsive img" alt="Bootstrap template"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="well">
+                                            <a href="img/paris/15.jpeg" data-gallery><img src="img/paris/15.jpeg" class="thumbnail img-responsive img" alt="Bootstrap template"></a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-4">
+                                        <div class="well">
+                                            <a href="img/paris/11.jpeg" data-gallery><img src="img/paris/11.jpeg" class="thumbnail img-responsive img" alt="Bootstrap template"></a>
                                         </div>
                                     </div>
                                     
@@ -154,12 +193,7 @@
                 </div><!-- /padding -->
             </div>
             <!-- /main -->
-        </div>
-    </div>
-</div>
-        
-        
-    <section id="footer" class="row" style='height:120px'>
+            <section id="footer" style='height:120px'>
         <div class="col-lg-4 col-lg-offset-4 text-center" style="margin-top:-70px">
                         <span style="color: #acadaf; position: absolute; left: 18px; top: 0; font-size: 14pt; text-align: left; font-family: FontAwesome;color:rgb(47,120,204)"></span>
                     <input type="email" style="text-indent: 26px; border-top:0; border-right: 0; border-bottom: 1px solid rgb(47,120,204); border-left:0; color: #82ACC4; width: 100%; font-family: 'adobe-garamond-pro', Garamond, 'Hoefler Text', 'Times New Roman', serif; font-weight: 300; font-size: 14pt; font-style: italic; text-align:left;color:rgb(47,120,204)" value="" name="EMAIL" class="email" id="mce-EMAIL" required="">
@@ -170,23 +204,27 @@
                 <hr style="width:1100PX; max-width:2000px;border-width: 1px;">
                 
                 <div class="col-lg-4 col-lg-offset-1" style="width:950px;font-weight:300;">
-                    <span style="color:rgb(47,120,204);float:left;">© 2015  <a href="#">HoneyComb</a></span>
+                    <span style="color:rgb(100,200,255);float:left;">© 2015  <a href="index.html">On the Road</a></span>
                     <span>
                         <a href="#" style="margin-left:200px;font-size:15pt">About&nbsp;Us</a>
-                        <a href="#" style="margin-left:50px;font-size:15pt">Contact&nbsp;Us</a>
+                        <a href="contact.html" style="margin-left:50px;font-size:15pt">Contact&nbsp;Us</a>
                     </span>
                     <p style='float:right'>
                         <a href='#'><i class="fa fa-instagram"></i></a>
                         <a href='#'><i class="fa fa-facebook-square"></i></a>
                         <a href='#'><i class="fa fa-twitter-square"></i></a>
-                        <a href='#'><i class="fa fa-qq"></i></a>
-                        <a href='#'><i class="fa fa-tencent-weibo"></i></a>
                         <a href="#"><i class="fa fa-github-square"></i></a>
-                        <a href="#"><i class="fa fa-weixin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus-square"></i></a>
                     </p>
                 </div>
         </div>
     </section>
+        </div>
+    </div>
+</div>
+        
+        
+    
     
     <!--modal!-->
     <div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
